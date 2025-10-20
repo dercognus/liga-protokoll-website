@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
-  ],
+  "cleanUrls": true,
   "headers": [
     {
-      "source": "/competition-(.*)/(.*).(html|css|png)",
+      "source": "/competition-(.*)/(.*).(html|css|png|jpg|jpeg)",
       "headers": [
         {
           "key": "Cache-Control",
