@@ -1,40 +1,62 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wettkampf-Protokolle</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>🏆 Wettkampf-Protokolle</h1>
-      <p class="subtitle">Trampolin Liga-Wettkämpfe</p>
-    </header>
+ <!DOCTYPE html>
+  <html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wettkampf-Protokolle</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🏆 Wettkampf-Protokolle</h1>
+        <p class="subtitle">Trampolin Liga-Wettkämpfe</p>
+      </header>
 
-    <main>
-      <ul class="wettkampf-liste">
-        <!-- Wettkämpfe werden automatisch von der Liga-Protokoll-App hochgeladen -->
-        <!-- Beispiel-Eintrag (wird später durch echte Wettkämpfe ersetzt):
-        <li>
-          <a href="/competition-1/protokoll.html">
-            <span class="date">15.10.2024</span>
-            <span class="title">Wettkampf 1 - TV Musterstadt vs. TSV Beispiel</span>
-          </a>
-        </li>
-        -->
+      <main>
+        <ul class="wettkampf-liste">
 
-        <li class="placeholder">
-          <p>Noch keine Wettkämpfe hochgeladen.</p>
-          <p class="hint">Wettkämpfe erscheinen hier automatisch nach dem ersten Upload aus der Liga-Protokoll-App.</p>
-        </li>
-      </ul>
-    </main>
+          <!-- Beispiel Wettkampf 1 -->
+          <li class="competition-card">
+            <a href="competition-2/index.html">
+              <div class="card-header">
+                <span class="date">12.10.2025</span>
+                <span class="location">📍 Sporthalle Musterstadt</span>
+              </div>
 
-    <footer>
-      <p>Automatisch generiert mit Liga-Protokoll-App</p>
-    </footer>
-  </div>
-</body>
-</html>
+              <div class="teams">
+                <div class="team home">
+                  <img src="competition-2/home-team-logo.png" height="50" alt="Heimteam Logo" class="team-logo">
+                  <span class="team-name">SC Musterstadt</span>
+                </div>
+
+                <span class="vs">vs.</span>
+
+                <div class="team guest">
+                  <img src="competition-2/guest-team-logo.png" height="50"  alt="Gastteam Logo" class="team-logo">
+                  <span class="team-name">TSV Musterhausen</span>
+                </div>
+              </div>
+
+              <div class="card-footer">
+                <span class="view-protocol">Protokoll anzeigen →</span>
+              </div>
+            </a>
+          </li>
+
+          <!-- Platzhalter wenn keine Wettkämpfe -->
+          <!-- <li class="placeholder">
+            <p>Noch keine Wettkämpfe hochgeladen.</p>
+            <p class="hint">Wettkämpfe erscheinen hier automatisch nach dem ersten Upload aus der
+  Liga-Protokoll-App.</p>
+          </li> -->
+
+        </ul>
+      </main>
+
+      <footer>
+        <p>Automatisch generiert mit Liga-Protokoll-App</p>
+      </footer>
+    </div>
+  </body>
+  </html>
