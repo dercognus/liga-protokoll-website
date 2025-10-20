@@ -1,9 +1,0 @@
-{
-  "name": "liga-wettkampf-website",
-  "version": "1.0.0",
-  "description": "Static website for competition protocols",
-  "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
-  }
-}
