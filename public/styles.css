@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 1.2rem;
+}
+
+.wettkampf-liste {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+}
+
+.wettkampf-liste li a {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.wettkampf-liste li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.date {
+  flex-shrink: 0;
+  width: 120px;
+  font-weight: 600;
+  color: #60a5fa;
+}
+
+.title {
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+/* Placeholder Styling */
+.placeholder {
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  text-align: center;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.placeholder p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.placeholder .hint {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #64748b;
+}
